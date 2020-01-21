@@ -9,6 +9,7 @@ let b = document.getElementById('b').innerHTML;
 let d = document.getElementById('d').innerHTML;
 let numpre = document.getElementById('numpre').innerHTML;
 submit.addEventListener('click', checknum);
+document.getElementById('d').innerHTML = "Your turn : " + time;
 start.addEventListener('click', function (){
      time = 10;
      document.querySelector('.input').value ='';
