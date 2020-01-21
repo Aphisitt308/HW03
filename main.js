@@ -18,6 +18,7 @@ start.addEventListener('click', function (){
      n = Math.floor(Math.random() *100) +1;
      document.querySelector('.input').disabled = false;
      document.querySelector('.input').value = '';
+     document.getElementById('d').innerHTML = "Your turn : " + time;
      
 
 });
@@ -27,7 +28,7 @@ function checknum(){
     time--;
     if(time == 9) document.getElementById('numpre').innerHTML = "Previous guesses :"
     document.getElementById('numpre').innerHTML += " " + Input;
-    document.getElementById('d').innerHTML = "Your turn : " + time
+    document.getElementById('d').innerHTML = "Your turn : " + time;
     console.log(n + ' '+ time + ' ' + Input);
     document.querySelector('.input').value = '';
     document.querySelector('.input').focus();
