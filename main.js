@@ -12,6 +12,7 @@ submit.addEventListener('click', checknum);
 document.getElementById('d').innerHTML = "Your turn : " + time;
 start.addEventListener('click', function (){
      time = 10;
+     document.getElementById('numpre').innerHTML = '';
      document.querySelector('.input').value ='';
      document.getElementById('a').innerHTML= '';
      document.getElementById('b').innerHTML= '';
