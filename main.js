@@ -31,7 +31,7 @@ function checknum(){
     if(time == 9) document.getElementById('numpre').innerHTML = "Previous guesses :"
     document.getElementById('numpre').innerHTML += " " + Input;
     document.getElementById('d').innerHTML = "Your turn : " + time;
-    console.log(n + ' '+ time + ' ' + Input);
+    // console.log(n + ' '+ time + ' ' + Input);
     document.querySelector('.input').value = '';
     document.querySelector('.input').focus();
     
